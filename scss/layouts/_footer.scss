@@ -1,0 +1,114 @@
+.footer {
+	background-color: var(--bgc-color-section);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer__flex-container {
+	@media screen and (min-width: 768px) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: baseline;
+	}
+}
+.footer__logo-address {
+	// margin-bottom: 60px;
+	@media screen and (max-width: 1199px) {
+		text-align: center;
+	}
+}
+
+.footer__address {
+	margin-top: 20px;
+}
+.footer__item {
+	margin-bottom: 8px;
+}
+.footer__link {
+	font-style: normal;
+	text-decoration: none;
+
+	color: var(--text-color-a-canal);
+	transition: color var(--anmation);
+
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+.footer__link--color-text {
+	color: var(--primary-white-color);
+}
+
+.footer__list {
+	@media screen and (max-width: 767px) {
+		margin-bottom: 60px;
+	}
+}
+
+.foot
+/* *подпишись, follow */
+.footer__label {
+	@media screen and (max-width: 1199px) {
+		margin-bottom: 20px;
+	}
+}
+.footer__social {
+	@media screen and (min-width: 1200px) {
+		margin-left: 70px;
+	}
+	// margin-bottom: 60px;
+}
+.footer__title {
+	margin-bottom: 20px;
+	@media screen and (max-width: 1199px) {
+		text-align: center;
+	}
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+
+	text-transform: uppercase;
+
+	color: var(--primary-white-color);
+}
+
+/* *подпишись на рассылку */
+
+.footer__distribution {
+	@media screen and (min-width: 1200px) {
+		// margin-top: 72px;
+		margin-left: 84px;
+	}
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		margin-top: 60px;
+	}
+}
+
+.footer__email {
+	@media screen and (min-width: 768px) {
+		width: 450px;
+	}
+	@media screen and (min-width: 1200px) {
+		margin-right: 12px;
+		width: 358px;
+	}
+
+	height: 50px;
+	width: 100%;
+	padding-left: 16px;
+
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background: var(--bgc-color-section);
+	outline: none;
+	color: var(--primary-white-color);
+}
+.footer__social {
+	@media screen and (max-width: 767px) {
+		margin-bottom: 60px;
+	}
+}
