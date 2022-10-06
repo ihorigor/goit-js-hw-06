@@ -1,0 +1,17 @@
+{
+	{                    // start of file and json object
+
+// other snippets here
+
+  
+  "query selector": {
+    "scope": "javascript",
+    "prefix": "dqs",
+    "body": ["document.querySelector('$0')"],
+    "description": "Select element from document"
+  },
+
+// other snippets here
+
+	}                    // end of json object
+}
